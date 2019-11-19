@@ -28,11 +28,14 @@ $(document).ready(function() {
         //farò un append per metterlo in pagina con jquery
         $(".cds-container").append(html);
 
-      }
+      };
 
-    }
+    },
+    error: function(error){
+      alert("errore");
+    },
 
-  })
+  });
 
 
 
